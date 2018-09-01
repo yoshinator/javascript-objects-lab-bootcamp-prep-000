@@ -1,12 +1,7 @@
 var recipes = new Object({"scrambled eggs": "add two eggs, cheddar cheese and ham", "key2": "The second value for key 2"});
 
 function updateObjectWithKeyAndValue(object, key, value){
-  var newObject = object;
-  console.log(object);
-  console.log(newObject);
-  newObject[value] = key;
-  console.log(object);
-  console.log(newObject);
+  Object.assign({},key)
   return object;
 }
 
