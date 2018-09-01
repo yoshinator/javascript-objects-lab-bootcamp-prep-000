@@ -3,7 +3,7 @@ var recipes = new Object({"scrambled eggs": "add two eggs, cheddar cheese and ha
 function updateObjectWithKeyAndValue(object, key, value){
   var newObject = object;
   console.log(object);
-  console.log(newObjectcle);
+  console.log(newObjectc);
   newObject[value] = key;
   console.log(object);
   console.log(newObject);
